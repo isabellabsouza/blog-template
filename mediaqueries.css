@@ -110,6 +110,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 3rem;
     }
+
+    .barra-pesquisa-container {
+        width: 60%;
+    }
 }
 
 /* CELULARES */
@@ -146,5 +150,9 @@
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
+    }
+
+    .barra-pesquisa-container {
+        width: var(--container-width-md);
     }
 }

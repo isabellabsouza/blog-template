@@ -324,3 +324,51 @@ footer ul a:hover {
     margin-top: 4rem;
 
 }
+
+/* PESQUISA */
+
+.barra-pesquisa {
+    margin-top: 7rem;
+
+}
+
+.barra-pesquisa-container {
+    position: relative;
+    width: 30rem;
+    background-color: var(--color-gray-900);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0.6rem 1rem;
+    border-radius: var(--card-border-radius-2);
+    color: var(--color-gray-300);
+}
+
+.barra-pesquisa-container > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa input {
+    background: transparent;
+    margin-left: 0.7rem;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
+.barra-pesquisa input::placeholder {
+    color: var(--color-gray-300);
+}
+
+.btn {
+    display: inline-block;
+    width: fit-content;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--color-primary);
+    border-radius: var(--card-border-radius-2);
+    cursor: pointer;
+    transition: var(--transition);
+    color: var(--color-white);
+}
