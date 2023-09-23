@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaqueries.css">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts CDN -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap">
+</head>
+
+<body>
+    <section class="form-section">
+        <div class="container form-section-container">
+            <h2>Cadastre-se</h2>
+            <div class="alert-messagem erro">
+                <p>Mensagem de erro</p>
+            </div>
+
+            <form action="" enctype="multipart/form-data">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Sobrenome">
+                <input type="text" placeholder="Usuário">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Confirme a senha">
+
+                <div class="form-control">
+                    <label for="avatar">Foto de perfil</label>
+                    <input type="file" id="avatar">
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+                <small>Já tem uma conta? Faça o <a href="./login.html">Login</a></small>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
